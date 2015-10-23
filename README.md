@@ -4,7 +4,7 @@ Evening challenges for the functions module.
 
 ### merge(arr1, arr2)
 
-Write a function that takes two sorted arrays of numbers and returns a merged array of the sorted numbers. For example, if the input arrays were var arr1 = [3,6,11] and var arr2 = [2,4,5,8,9], the returned array would be: [2,3,4,5,6,8,9,11].
+Write a function that takes two sorted arrays of numbers and returns a merged array of the sorted numbers. For example, if the input arrays were ```var arr1 = [3,6,11]``` and ```var arr2 = [2,4,5,8,9]```, the returned array would be: ```[2,3,4,5,6,8,9,11]```.
 
 ### letterCount(word)
 
