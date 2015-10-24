@@ -1,5 +1,25 @@
 ## Solutions
 
+### maxOrMin(num1, num2, max)
+
+```
+// maxOrMin solution
+
+function maxOrMin(num1, num2, max) {
+    //sort the numbers
+    var sorted = [num1, num2].sort(function(a, b){
+      return a - b;
+    });
+    if(max) {
+        //if max is true return the greater number
+        return sorted[1];
+    } else {
+        //otherwise return the lesser number
+        return sorted[0];
+    }
+}
+```
+
 ### sillySum(arr)
 
 ```

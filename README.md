@@ -2,6 +2,9 @@
 
 Evening challenges for the functions module.
 
+### maxOrMin(num1, num2, max)
+
+Define a function maxOrMin that takes three parameters: two numbers and a boolean.  Have it return the larger of the two numbers if the boolean is true, otherwise have it return the lesser of the numbers.
 
 ### sillySum(arr)
 
