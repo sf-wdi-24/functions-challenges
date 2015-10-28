@@ -18,18 +18,17 @@ function sillySum(arr) {
 
 function numSquare(max) {
 	var arr = [];
-	for(i = 1; (i * i) < max; i++) {
+	for(i = 1; (i * i) <= max; i++) {
 		arr.push(i * i);
 	}
 	return arr;
 }
 
 function isPrime(num) {
-	if (num === 2) { return true; }
 	for(var i = 2; i < num; i++) {
 		if (num % i === 0) { return false; }
-		else { return true;}
 	}
+	return true;
 }
 
 function primes(max) {
