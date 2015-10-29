@@ -47,4 +47,13 @@ function numSquare (array) {
 
 
 
+	function isPrime (num) {
+	 
+		if (num%num==0) && (num%1==0) {
+            console.log("is prime");}
+    else {
+    	console.log("is not prime");
+    }
+
 	
+num (8)
