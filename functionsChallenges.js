@@ -56,4 +56,19 @@ function numSquare (array) {
     }
 
 	
-num (8)
+
+
+
+
+
+
+
+function primesMax (array) {
+	var newArr =[]; 
+	for (var i = 0; i < array.length; i++) {
+		
+		 newArr.push(isPrime[i]); 
+
+	}
+	return newArr;
+}
