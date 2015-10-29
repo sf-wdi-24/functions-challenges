@@ -54,7 +54,7 @@ var primes = function(max) {
 	var primesArray = [];
 
 	while (a <= max) {
-		if (isPrime(a) === true) {
+		if (isPrime(a)) {
 			primesArray.push(a);
 		}
 		a += 1
