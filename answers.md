@@ -56,12 +56,12 @@ numSquare(100);
 //////////////////////
 
 function isPrime(num) {
-        for (i=2; i<num; i++) {
-            if(num<2) {
-                return true;
-            }
-            else if(num % i === 0) {
-                return false;
+	if(num<2) {
+    	return false;
+    }
+        for (var i=2; i<num; i++) {
+            if(num % i === 0) {
+            	return false;
             }
             else {
                 return true;
@@ -70,3 +70,36 @@ function isPrime(num) {
 }
 
 isPrime(130);
+
+////////////////////////
+/////Solution 5 ///////
+//////////////////////
+
+
+function isPrime(num) {
+    if(num < 2) {
+    	return false;
+    }
+        for (var i = 2; i < num; i++) {
+            if(num % i === 0) {
+            	return false;
+            }
+            //Why does this break my code when I comment out the return true below?
+            // else {
+            //     return true;
+            // }
+        }
+        return true;
+}
+
+function primes(max) {
+    var array = [];
+    for (var i = 2; i<=max;i++) {
+        if(isPrime(i)) {
+            array.push(i);
+        }
+    }
+    return array;
+}
+
+primes(100);
