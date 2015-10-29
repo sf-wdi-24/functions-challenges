@@ -50,3 +50,23 @@ function numSquare(max) {
 
 
 numSquare(100);
+
+////////////////////////
+/////Solution 4 ///////
+//////////////////////
+
+function isPrime(num) {
+        for (i=2; i<num; i++) {
+            if(num<2) {
+                return true;
+            }
+            else if(num % i === 0) {
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+}
+
+isPrime(130);
