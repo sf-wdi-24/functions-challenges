@@ -28,3 +28,23 @@ sillySum(arr)
 
 
 
+
+
+
+var arr = [1,4,6,8,9,7]
+function numSquare (array) {
+	var newArr =[]; 
+	for (var i = 0; i < array.length; i++) {
+		
+		 newArr.push(array[i++]*array[i++]); 
+
+	}
+	return newArr }
+
+
+
+
+
+
+
+	
