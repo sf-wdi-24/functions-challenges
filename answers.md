@@ -34,3 +34,19 @@ function sillySum(arr) {
 var array = [1,2,3,4,5];
 sillySum(array);
 
+////////////////////////
+/////Solution 3 ///////
+//////////////////////
+
+function numSquare(max) {
+    var squaredArray = [];
+    for (var i = 0; i<max; i++) {
+         if (Math.pow(i,2) <= max) { 
+         squaredArray.push(Math.pow(i,2)) ;
+         }
+    }
+    return squaredArray;
+}
+
+
+numSquare(100);
