@@ -17,5 +17,20 @@ function maxOrMin (num1, num2, boo) {
 	}
 }
 
-maxOrMin(100,200,"blue");
+maxOrMin(100,200,true);
+
+////////////////////////
+/////Solution 2 ///////
+//////////////////////
+
+function sillySum(arr) {
+    var count = 0;
+	for (var i=0; i<arr.length; i++) {
+		 count += (arr[i] * i);
+	}
+    return count;
+}
+
+var array = [1,2,3,4,5];
+sillySum(array);
 
