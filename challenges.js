@@ -13,9 +13,13 @@ function Maxormin (num1, num2, max) {
 console.log(Maxormin(2,3,"hi"));
 
 function sillySum(arr) {
-    return arr.map(function (value,index) {
+    arr = arr.map(function (value,index) {
         return value * index;
     });
+    var sum = arr.reduce(function(a,b) {
+        return a + b;
+    });
+    return sum;
 }
 
 console.log(sillySum([1,2,3,4,5,6]));
