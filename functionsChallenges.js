@@ -1,11 +1,13 @@
-function maxOrMin(max, x, y) {
-    if (max && x > y) {
-        return x
-    } else if (max && y > x) {
-        return y
+function maxOrMin(max,x, y) {
+    if (max) {
+        (x > y);
+        return x;
+    } else {
+        return y;
     }
 }
-alert(maxOrMin(true,9,7))
+maxOrMin(7, 6);
+
 
 
 
